@@ -46,7 +46,7 @@ p {
 
 ul {
   list-style-type: square;
-  list-style-image: url("/profile/CSS - My Site Images/triangular-logo.png");
+  list-style-image: url("https://image.flaticon.com/icons/png/512/71/71295.png");
   list-style-position: inside;
 }
 
