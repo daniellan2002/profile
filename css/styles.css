@@ -46,13 +46,13 @@ p {
 
 ul {
   list-style-type: square;
-  list-style-image: url("CSS - My Site Images/triangular-logo.png");
+  list-style-image: url("/profile/CSS - My Site Images/triangular-logo.png");
   list-style-position: inside;
 }
 
 ul li {
   padding-left: 2rem;
-  background-image: url("CSS - My Site Images/cloud.png");
+  background-image: url("/profile/CSS - My Site Images/cloud.png");
   background-position: 0 0;
   color: white;
   background-size: 1.6rem 1.6rem;
