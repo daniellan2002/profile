@@ -44,6 +44,21 @@ p {
   line-height: 1.5;
 }
 
+ul {
+  list-style-type: square;
+  list-style-image: url("/Users/daniellan1916/Desktop/CSS - My Site/CSS - My Site Images/triangular-logo.png");
+  list-style-position: inside;
+}
+
+ul li {
+  padding-left: 2rem;
+  background-image: url("CSS - My Site Images/cloud.png");
+  background-position: 0 0;
+  color: white;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat;
+}
+
 hr {
 
     border-style: dotted;
@@ -73,6 +88,29 @@ hr {
 
 }
 
+.page2-title {
+  color:#0C4271;
+}
+
+.project-title {
+  color: white;
+}
+
+.project-text {
+  color:#035397;
+}
+
+.tech-titles {
+  font-weight: bold;
+  position: static;
+  text-align: left;
+  color: #00EAD3;
+}
+
+.live-game-title {
+  padding: 2rem;
+}
+
 .hello {
   letter-spacing: 10px;
 }
@@ -95,8 +133,15 @@ hr {
   padding-bottom: 25px;
 }
 
+.skills-projects {
+  margin: auto auto;
+  background-color: #00B7C2;
+  padding-top: 5rem;
+  /* padding-bottom: 5rem; */
+}
+
 .skills {
-  margin: 100px auto;
+  margin: auto auto;
   background-color: #00B7C2;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -104,7 +149,8 @@ hr {
 
 .skill-row {
   width: 50%;
-  margin: 150px auto;
+  margin: 100px auto;
+  padding: 2rem;
   text-align: left;
   line-height: 2;
 }
@@ -160,6 +206,7 @@ hr {
   font-family: 'Montserrat', sans-serif;
   font-size: 150%;
   font-weight: normal;
+  padding-bottom: 4rem;
 }
 
 .top-cloud {
