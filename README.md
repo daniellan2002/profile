@@ -1,2 +1,2 @@
 # profile
-My own website including contact information and self-descriptions.
+My portfolio website including projects and contact information!
