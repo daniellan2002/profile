@@ -46,13 +46,13 @@ p {
 
 ul {
   list-style-type: square;
-  list-style-image: url("/profile/CSS - My Site Images/triangular-logo.png");
+  list-style-image: url("/Users/daniellan1916/Desktop/CSS - My Site/CSS - My Site Images/triangular-logo.png");
   list-style-position: inside;
 }
 
 ul li {
   padding-left: 2rem;
-  
+  background-image: url("CSS - My Site Images/cloud.png");
   background-position: 0 0;
   color: white;
   background-size: 1.6rem 1.6rem;
@@ -121,9 +121,11 @@ hr {
 
 }
 .ocean-container {
-  width:100%;
-  margin:0 0 0 0;
+  width:auto;
+  overflow: hidden;
   position: relative;
+  object-fit: contain;
+
 
 }
 .bottom-color {
@@ -321,4 +323,19 @@ hr {
   font-weight: bold;
   color: #11999E;
 
+}
+
+@media (max-width: 1028px) {
+  .iphone-image {
+    position: static;
+    padding-top: 5%;
+  }
+
+  #iphone-image {
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
